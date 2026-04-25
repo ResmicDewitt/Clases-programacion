@@ -57,7 +57,7 @@ javac EjemploArbolMulticamino.java
 java EjemploArbolMulticamino
 ```
 
-## 🔍 Métodos Incluidos
+## Métodos Incluidos
 
 | Método | Descripción |
 | :--- | :--- |
