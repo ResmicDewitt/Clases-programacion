@@ -1,6 +1,3 @@
-Aquí tienes un archivo `README.md` completo y estructurado para tu proyecto de GitHub, integrando diagramas en formato Mermaid (que GitHub renderiza nativamente) para que sea visual y fácil de entender.
-
-***
 
 # Árbol Multicamino en Java
 
