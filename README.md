@@ -2,11 +2,11 @@ Aquí tienes un archivo `README.md` completo y estructurado para tu proyecto de 
 
 ***
 
-# 🌳 Árbol Multicamino en Java
+# Árbol Multicamino en Java
 
 Este proyecto implementa una estructura de datos de **Árbol Multicamino** (o Árbol N-ario) en Java. A diferencia de un árbol binario, cada nodo en este tipo de árbol puede tener un número ilimitado de hijos, lo que lo hace ideal para representar jerarquías complejas como sistemas de archivos o estructuras organizacionales.
 
-## 📊 Estructura del Árbol
+## Estructura del Árbol
 
 El código de ejemplo en `EjemploArbolMulticamino.java` construye la siguiente jerarquía visual:
 
@@ -25,7 +25,7 @@ graph TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
 ```
 
-## ⚙️ Funcionamiento del Código
+## Funcionamiento del Código
 
 El sistema se divide en tres componentes principales:
 1.  **Clase `Nodo`**: Contiene el valor (`String`) y una lista dinámica (`List<Nodo>`) para almacenar a sus hijos.
@@ -49,7 +49,7 @@ flowchart TD
     Loop -- No hay más hijos --> End([Fin])
 ```
 
-## 🚀 Cómo ejecutarlo
+## Cómo ejecutarlo
 
 1.  Asegúrate de tener instalado el **JDK 8** o superior.
 2.  Copia el código en un archivo llamado `EjemploArbolMulticamino.java`.
