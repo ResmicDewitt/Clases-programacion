@@ -67,9 +67,5 @@ java EjemploArbolMulticamino
 | `buscar(Nodo n, String v)` | Búsqueda booleana exhaustiva en toda la estructura. |
 
 ---
-
-Para ayudarte a visualizar cómo funcionan realmente estos recorridos y la estructura del árbol de forma dinámica, he preparado una herramienta interactiva a continuación.
-
-```json?chameleon
 {"component":"LlmGeneratedComponent","props":{"height":"700px","prompt":"Crea una herramienta interactiva para visualizar un Árbol Multicamino basado en el código Java proporcionado. \n\n1. Objetivo: Permitir al usuario explorar visualmente el árbol A -> (B,C,D), B->(E,F), C->(G), D->(H,I,J) y ver cómo funcionan los recorridos.\n2. Visualización: Dibuja el árbol de forma jerárquica clara. Los nodos deben ser círculos con su letra correspondiente.\n3. Controles: \n   - Botón 'Preorden': Animar los nodos uno a uno en el orden A, B, E, F, C, G, D, H, I, J.\n   - Botón 'Postorden': Animar los nodos en orden E, F, B, G, C, H, I, J, D, A.\n   - Botón 'Por Niveles (BFS)': Animar los nodos en orden A, B, C, D, E, F, G, H, I, J.\n   - Botón 'Reset': Detener animaciones y volver al estado inicial.\n4. Comportamiento: Al animar, el nodo actual debe resaltarse visualmente. Mostrar debajo del árbol una lista de 'Nodos visitados' que se actualice en tiempo real durante la animación.\n5. Estética: Limpia y académica. Usa una disposición vertical para el árbol. No uses colores específicos, solo indica 'resaltado' para el nodo activo.","id":"im_bbddaa1cf38675cd"}}
 ```
